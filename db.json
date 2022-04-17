@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name":"feijão",
+      "fabricated":"22/02/2022",
+      "perishable": true,
+      "validate":"26/07/2023"
+    },
+    {
+      "id": 2,
+      "name":"arroz",
+      "fabricated":"22/02/2022",
+      "perishable": true,
+      "validate":"26/07/2023"
+    },
+    {
+      "id": 3,
+      "name":"agua",
+      "fabricated":"22/02/2022",
+      "perishable": false,
+      "validate":""
+    },
+    {
+      "id": 4,
+      "name":"milho",
+      "fabricated":"22/02/2022",
+      "perishable": true,
+      "validate":"26/07/2023"
+    },
+    {
+      "id": 5,
+      "name":"peixe",
+      "fabricated":"22/02/2022",
+      "perishable": true,
+      "validate":"26/07/2023"
+    }
+  ]
+}
