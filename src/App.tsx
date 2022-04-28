@@ -1,4 +1,4 @@
-import './App.css'
+import './css/App.css'
 import Root from './routes/Root'
 
 function App() {

@@ -1,39 +1,111 @@
 {
+  "auth": {
+    "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiUmFmYWVsIEZvbnNlY2EiLCJwaWN0dXJlIjoiaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2Rvd25sb2FkL3N0b3JhZ2UvdjEvYi9wcmVkaWN0LXN0YWdpbmctcGxhdGZvcm0taW1hZ2VzL28vYXZhdGFyJTJGNWM3N2VhZmE3ZmM4NzM3NTg5OTQzMzc1LmpwZz9nZW5lcmF0aW9uPTE2NDkyNTQ5MDgyNTM2MjAmYWx0PW1lZGlhIiwicG9zaXRpb24iOiJDb29yZGVuYWRvciIsImNpdHkiOiJQZWxvdGFzIC0gUlMiLCJsZ3BkIjoiNiIsImludml0ZWQiOiIyMDIyLTAzLTA3VDIwOjU5OjE1LjEyMloiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vcHJlZGljdC1zdGFnaW5nLXBsYXRmb3JtIiwiYXVkIjoicHJlZGljdC1zdGFnaW5nLXBsYXRmb3JtIiwiYXV0aF90aW1lIjoxNjUwNjc0NjY2LCJ1c2VyX2lkIjoiNWM3N2VhZmE3ZmM4NzM3NTg5OTQzMzc1Iiwic3ViIjoiNWM3N2VhZmE3ZmM4NzM3NTg5OTQzMzc1IiwiaWF0IjoxNjUwNjc0NjY2LCJleHAiOjE2NTA2NzgyNjYsImVtYWlsIjoicmFmYWVsLmZvbnNlY2EyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV9udW1iZXIiOiIrNTU1MzkxMTY0NDMwIiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJwaG9uZSI6WyIrNTU1MzkxMTY0NDMwIl0sImVtYWlsIjpbInJhZmFlbC5mb25zZWNhMkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.WiStHBlHT7HdLAULIwvOdJNusZaQxilqCD8QfI6zqoTiu0FodA_3TyXfdhwdZNkhF8KiT8W8vJYvjstJ8fbtdlT7v39EsAWP2FwcfYyIVOfSIGojJwA7-oVxRW4JD9vgGbX3OoMdmZG1gzqBbjpW67p4_teZi7xTfsWII5nR7reVTPGNGwnJO-lq6pvX6giNDqmsOVzG17OA95x3hOxJBQDKDv_QkyjXEsqmpv06kDU3zaoEIcLjKZmZisOzvBHeDA7i27-oek1_aUSqJ-9L6facssKI94TDbc2pNAsR2F75wiT09jBceUvn50R0WuD5siqRQyZ_c5ZBooeZPONVPA"
+  },
   "products": [
     {
-      "id": 1,
-      "name":"feijão",
-      "fabricated":"22/02/2022",
-      "perishable": true,
-      "validate":"26/07/2023"
-    },
-    {
-      "id": 2,
-      "name":"arroz",
-      "fabricated":"22/02/2022",
-      "perishable": true,
-      "validate":"26/07/2023"
-    },
-    {
       "id": 3,
-      "name":"agua",
-      "fabricated":"22/02/2022",
+      "name": "agua",
+      "fabricated": "2020-02-20",
       "perishable": false,
-      "validate":""
+      "validate": "",
+      "preço": 50
     },
     {
       "id": 4,
-      "name":"milho",
-      "fabricated":"22/02/2022",
-      "perishable": true,
-      "validate":"26/07/2023"
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
     },
     {
       "id": 5,
-      "name":"peixe",
-      "fabricated":"22/02/2022",
-      "perishable": true,
-      "validate":"26/07/2023"
+      "name": "peixe",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 90
+    },
+    {
+      "id": 6,
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 90
+    },
+    {
+      "id": 7,
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 8,
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 9,
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 10,
+      "name": "milho",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 11,
+      "name": "cuscuz",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 12,
+      "name": "farinha",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "id": 13,
+      "name": "carne",
+      "fabricated": "2020-02-20",
+      "perishable": "Sim",
+      "validate": "2023-05-12",
+      "preço": 50
+    },
+    {
+      "name": "Filé de frago",
+      "fabricated": "2020-02-20",
+      "perisable": "Sim",
+      "validate": "2323-02-12",
+      "preço": "232",
+      "id": 14
+    },
+    {
+      "name": "Bala",
+      "fabricated": "2024-04-25",
+      "perisable": "Sim",
+      "validate": "2025-05-01",
+      "preço": "4.50",
+      "id": 15
     }
   ]
 }
