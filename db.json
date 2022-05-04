@@ -4,108 +4,164 @@
   },
   "products": [
     {
-      "id": 3,
-      "name": "agua",
-      "fabricated": "2020-02-20",
-      "perishable": false,
-      "validate": "",
-      "preço": 50
+      "name": "Queijo",
+      "fabricated": "2022-06-10",
+      "perishable": true,
+      "validate": "2022-09-31",
+      "price": "22.00",
+      "id": 2
     },
     {
-      "id": 4,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": " Laranja",
+      "fabricated": "2022-12-12",
+      "perishable": true,
+      "validate": "2023-01-22",
+      "price": "8.50",
+      "id": 3
     },
     {
-      "id": 5,
-      "name": "peixe",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 90
+      "name": "Lagosta",
+      "fabricated": "2023-04-23",
+      "perishable": true,
+      "validate": "2023-05-22",
+      "price": "43.00",
+      "id": 4
     },
     {
-      "id": 6,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 90
+      "name": "Picanha",
+      "fabricated": "2022-04-23",
+      "perishable": true,
+      "validate": "2022-05-10",
+      "price": "73.00",
+      "id": 5
     },
     {
-      "id": 7,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Tomate",
+      "fabricated": "2022-05-18",
+      "perishable": true,
+      "validate": "2022-05-31",
+      "price": "12.25",
+      "id": 6
     },
     {
-      "id": 8,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Alface",
+      "fabricated": "2022-10-12",
+      "perishable": true,
+      "validate": "2022-10-22",
+      "price": "4.00",
+      "id": 8
     },
     {
-      "id": 9,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Camarão",
+      "fabricated": "2022-06-12",
+      "perishable": true,
+      "validate": "2022-06-30",
+      "price": "45.00",
+      "id": 9
     },
     {
-      "id": 10,
-      "name": "milho",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Batata",
+      "fabricated": "2022-09-22",
+      "perishable": true,
+      "validate": "2022-10-02",
+      "price": "8.90",
+      "id": 10
     },
     {
-      "id": 11,
-      "name": "cuscuz",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Ricota",
+      "fabricated": "2022-05-17",
+      "perishable": true,
+      "validate": "2022-06-17",
+      "price": "4.70",
+      "id": 11
     },
     {
-      "id": 12,
-      "name": "farinha",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Peixe",
+      "fabricated": "2022-05-11",
+      "perishable": true,
+      "validate": "2022-05-28",
+      "price": "23",
+      "id": 12
     },
     {
-      "id": 13,
-      "name": "carne",
-      "fabricated": "2020-02-20",
-      "perishable": "Sim",
-      "validate": "2023-05-12",
-      "preço": 50
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
+      "id": 13
     },
     {
-      "name": "Filé de frago",
-      "fabricated": "2020-02-20",
-      "perisable": "Sim",
-      "validate": "2323-02-12",
-      "preço": "232",
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
       "id": 14
     },
     {
-      "name": "Bala",
-      "fabricated": "2024-04-25",
-      "perisable": "Sim",
-      "validate": "2025-05-01",
-      "preço": "4.50",
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
       "id": 15
+    },
+    {
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
+      "id": 16
+    },
+    {
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
+      "id": 18
+    },
+    {
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
+      "id": 19
+    },
+    {
+      "name": "Peixe",
+      "fabricated": "2021-12-23",
+      "perishable": true,
+      "validate": "2022-05-22",
+      "price": "43.00",
+      "id": 20
+    },
+    {
+      "name": "Macarrão",
+      "fabricated": "2022-12-12",
+      "perishable": true,
+      "validate": "2023-02-12",
+      "price": "10",
+      "id": 21
+    },
+    {
+      "name": "Feijão",
+      "fabricated": "2022-05-05",
+      "perishable": true,
+      "validate": "",
+      "price": "10.00",
+      "id": 22
+    },
+    {
+      "name": "Arroz",
+      "fabricated": "2022-05-18",
+      "perishable": true,
+      "validate": "2022-10-20",
+      "price": "23.00",
+      "id": 23
     }
   ]
 }

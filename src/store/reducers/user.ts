@@ -5,9 +5,12 @@ const INITIAL_STATE = {
   token: localStorage.getItem('token') || '',
   signIn: !!localStorage.getItem('token')
 }
+interface ActionProps {
+  type: string
+  payload: any
+}
 
-export default function user(state = INITIAL_STATE, action: any) {
-  console.log(action)
+export default function user(state = INITIAL_STATE, action: ActionProps) {
   switch (action.type) {
     case 'SIGN_IN':
       return {

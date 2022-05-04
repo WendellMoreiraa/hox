@@ -1,13 +1,17 @@
 /* eslint-disable default-param-last */
-
 const INITIAL_STATE = {
   products: [],
   loading: false,
-  totalProducts: 0
+  totalProducts: 0,
+  productsChange: false
 }
 
-export default function products(state = INITIAL_STATE, action: any) {
-  console.log(action)
+interface ActionProps {
+  type: string
+  payload: any
+}
+
+export default function products(state = INITIAL_STATE, action: ActionProps) {
   switch (action.type) {
     case 'SET_PRODUCTS':
       return {
@@ -19,6 +23,11 @@ export default function products(state = INITIAL_STATE, action: any) {
       return {
         ...state,
         loading: action.payload.loading
+      }
+    case 'SET_REFRESH':
+      return {
+        ...state,
+        productsChange: action.payload.productsChange
       }
 
     default:

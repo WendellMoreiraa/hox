@@ -15,3 +15,12 @@ export function setLoading(loading: boolean) {
     }
   }
 }
+
+export function setRefresh(productsChange: boolean) {
+  return {
+    type: 'SET_REFRESH',
+    payload: {
+      productsChange
+    }
+  }
+}

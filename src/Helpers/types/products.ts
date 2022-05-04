@@ -4,5 +4,5 @@ export interface ProductProps {
   fabricated: string
   perishable: string
   validate: string
-  preço: number
+  price: number
 }

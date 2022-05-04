@@ -1,14 +1,12 @@
-/* eslint-disable import/extensions */
-/* eslint-disable import/no-unresolved */
-import React, { useState, useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useEffect, useCallback } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded'
 import LogoutIcon from '@mui/icons-material/Logout'
 import { makeStyles } from '@mui/styles'
-import { ProductProps } from '../../Helpers/types/products'
+
+import { StatesProps } from '../../Helpers/types/states'
 import * as productsActions from '../../store/actions/products'
 import TableData from '../../components/TableDashboard'
-import ButtonAdd from '../../components/AddProducts'
 
 import Menu from '../../img/Menu.png'
 import api from '../../services/api'
@@ -30,12 +28,6 @@ const useStyles = makeStyles({
   },
   mainDashboard: {
     padding: '20px'
-  },
-  addProducts: {
-    width: '100%',
-    display: 'flex',
-    justifyContent: 'flex-end',
-    marginBottom: '20px'
   },
 
   asideIcons: {
@@ -60,24 +52,35 @@ const useStyles = makeStyles({
 })
 
 function ProductsDashboard() {
-  const [products, setProducts] = useState<ProductProps[]>([])
   const dispach = useDispatch()
+  const { productsChange, products } = useSelector((state: StatesProps) => state.products)
   const dashboard = useStyles()
   const signiOut = () => {
     localStorage.removeItem('token')
+    dispach(productsActions.setRefresh(true))
   }
 
-  useEffect(() => {
-    async function loadProducts() {
-      const response = await api.get('/products')
-      dispach(productsActions.setProducts(response.data, response.data.length))
+  const loadProducts = useCallback(async () => {
+    const response = await api.get('/products')
+    dispach(productsActions.setProducts(response.data, response.data.length))
 
-      setProducts(response.data)
-      dispach(productsActions.setLoading(false))
-    }
-    dispach(productsActions.setLoading(true))
-    loadProducts()
+    dispach(productsActions.setLoading(false))
   }, [dispach])
+
+  const refreshProducts = useCallback(() => {
+    loadProducts()
+    dispach(productsActions.setRefresh(false))
+  }, [dispach, loadProducts])
+
+  useEffect(() => {
+    loadProducts()
+  }, [loadProducts])
+
+  useEffect(() => {
+    if (productsChange) {
+      refreshProducts()
+    }
+  }, [productsChange, refreshProducts])
 
   return (
     <div className={dashboard.bodyDashboard}>
@@ -87,7 +90,7 @@ function ProductsDashboard() {
         </div>
         <div className={dashboard.asideIcons}>
           <div className={dashboard.logo}>
-            <LogoutIcon onClick={signiOut} sx={{ color: '#ffff', fontSize: '25px' }} />
+            <LogoutIcon sx={{ color: '#ffff', fontSize: '25px' }} onClick={signiOut} />
             <h3>Sign out</h3>
           </div>
           <div className={dashboard.logo}>
@@ -97,13 +100,7 @@ function ProductsDashboard() {
         </div>
       </header>
       <div className={dashboard.mainDashboard}>
-        <div className={dashboard.addProducts}>
-          <ButtonAdd />
-        </div>
-
-        <section>
-          <TableData products={products} />
-        </section>
+        <section>{products && <TableData products={products} />}</section>
       </div>
     </div>
   )
