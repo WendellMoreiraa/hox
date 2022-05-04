@@ -108,14 +108,6 @@
       "id": 19
     },
     {
-      "name": "Peixe",
-      "fabricated": "2021-12-23",
-      "perishable": true,
-      "validate": "2022-05-22",
-      "price": "43.00",
-      "id": 20
-    },
-    {
       "name": "Macarrão",
       "fabricated": "2022-12-12",
       "perishable": true,
