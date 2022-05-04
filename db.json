@@ -84,36 +84,12 @@
       "id": 12
     },
     {
-      "name": "Peixe",
-      "fabricated": "2021-12-23",
-      "perishable": true,
-      "validate": "2022-05-22",
-      "price": "43.00",
+      "name": "Arroz Parbolizado",
+      "fabricated": "2022-05-19",
+      "perishable": false,
+      "validate": "",
+      "price": "20.00",
       "id": 13
-    },
-    {
-      "name": "Peixe",
-      "fabricated": "2021-12-23",
-      "perishable": true,
-      "validate": "2022-05-22",
-      "price": "43.00",
-      "id": 14
-    },
-    {
-      "name": "Peixe",
-      "fabricated": "2021-12-23",
-      "perishable": true,
-      "validate": "2022-05-22",
-      "price": "43.00",
-      "id": 15
-    },
-    {
-      "name": "Peixe",
-      "fabricated": "2021-12-23",
-      "perishable": true,
-      "validate": "2022-05-22",
-      "price": "43.00",
-      "id": 16
     },
     {
       "name": "Peixe",
@@ -162,6 +138,14 @@
       "validate": "2022-10-20",
       "price": "23.00",
       "id": 23
+    },
+    {
+      "name": "Feijão",
+      "fabricated": "2022-05-12",
+      "perishable": false,
+      "validate": "",
+      "price": "10.00",
+      "id": 24
     }
   ]
 }
