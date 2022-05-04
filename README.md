@@ -34,7 +34,7 @@ Hox Dashboard is a project made to control products, being able to edit, delete 
 - [x] Delete product
 
 <h1 align="center"> 
-<img alt='function3'src='src/img/function3.gif'>
+<img alt='function3'src='src/img/Delete.gif'>
 </h1>
 
 ## ✔️ Login
