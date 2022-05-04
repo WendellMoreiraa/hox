@@ -51,38 +51,38 @@ Hox Dashboard is a project made to control products, being able to edit, delete 
 <img alt='login'src='src/img/login.gif'>
 </h1>
 
-# Pré-requisitos
+# Prerequisites
 
-## Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+## Before starting, you will need to have the following tools installed on your machine::
 
 [Git](https://git-scm.com),
 [VSCode](https://code.visualstudio.com/).
 
-### 🎲 Rodando o Projeto
+### 🎲 Running the project
 
-## Clone este repositório
+## Clone this repository
 
 $ git clone https://github.com/WendellMoreiraa/hox
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in terminal/cmd
 
 $ cd hox
 
-## Instale as dependências
+## install the dependencies
 
 $ yarn install
 
-## Execute o Json-server
+## Run json-server
 
 $ json-server --watch db.json
 
-## Execute a aplicação
+## Run the application
 
 $ yarn start
 
-## O servidor inciará na porta: 3001 - acesse: http://localhost:3001
+## The server will start on port: 3001 - access: http://localhost:3001
 
-# ✔️ Técnicas e tecnologias utilizadas
+# ✔️ Techniques and technologies used
 
 - `Reactjs`
 - `Redux`
