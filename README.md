@@ -100,7 +100,9 @@ $ yarn start
 ---
 
 <a href="https://github.com/WendellMoreiraa">
- <img  src="https://avatars.githubusercontent.com/u/98846034?s=400&u=b64c6d0f9bc62b1ec0113550fa52359796ed1039&v=4"style="border-radius: 50%,   width:100px" alt="Perfil"/>
+
+<img src="https://avatars.githubusercontent.com/u/98846034?s=400&u=b64c6d0f9bc62b1ec0113550fa52359796ed1039&v=4"style="border-radius: 50%, width:100px" alt="Perfil"/>
+
  <br />
  <sub><b>Wendell Moreira</b></sub> </a>
 
