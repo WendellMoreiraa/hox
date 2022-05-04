@@ -91,7 +91,7 @@ $ yarn start
 <a href="https://github.com/WendellMoreiraa">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98846034?s=400&u=b64c6d0f9bc62b1ec0113550fa52359796ed1039&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Wendell Moreira</b></sub>
+ <sub><b>Wendell Moreira</b></sub></br>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Wendell-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wendell-da-silva-53085b1b0/)](https://www.linkedin.com/in/wendell-da-silva-53085b1b0/)
 [![Gmail Badge](https://img.shields.io/badge/-wendell.ufpel@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wendell.ufpel@gmail.com)](mailto:wendell.ufpel@gmail.com)
