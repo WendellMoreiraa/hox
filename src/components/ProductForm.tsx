@@ -77,7 +77,7 @@ export default function ProductForm({ open, id, onClose }: productsFormProps) {
 
   return (
     <Dialog open={open} onClose={handleClose}>
-      <DialogTitle>Cadastro de Produto</DialogTitle>
+      <DialogTitle>{id !== undefined ? 'Editar Produto' : 'Cadastrar Produto'}</DialogTitle>
       <DialogContent>
         <TextField
           label="Nome do produto: "

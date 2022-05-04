@@ -13,18 +13,9 @@ Hox Dashboard is a project made to control products, being able to edit, delete 
 
 ## :hammer: Project features:
 
-<<<<<<< HEAD
-
 - `Functionality 1`:
 - [x] Product registration
 
-<h1 align="center"> 
-<img alt='function1'src='src/img/function1.gif'>
-</h1>
-=======
- - `Functionality 1`:
- - [x] Product registration
-  
   <h1 align="center"> 
   <img alt='function1'src='src/img/function1.gif'>
   </h1>
@@ -101,7 +92,7 @@ $ yarn start
 
 <a href="https://github.com/WendellMoreiraa">
 
-<img src="https://avatars.githubusercontent.com/u/98846034?s=400&u=b64c6d0f9bc62b1ec0113550fa52359796ed1039&v=4"style="border-radius: 50%, width:100px" alt="Perfil"/>
+<img src="https://avatars.githubusercontent.com/u/98846034?s=400&u=b64c6d0f9bc62b1ec0113550fa52359796ed1039&v=4" style="border-radius: 50%, width:100px" alt="Perfil"/>
 
  <br />
  <sub><b>Wendell Moreira</b></sub> </a>
