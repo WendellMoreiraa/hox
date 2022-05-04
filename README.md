@@ -15,7 +15,7 @@ Hox Dashboard is a project made to control products, being able to edit, delete 
 
 - `Functionality 1`:
 
-  [x] Product registration
+  -[x] Product registration
   <h1 align="center"> 
   <img alt='function1'src='src/img/function1.gif'>
   </h1>
